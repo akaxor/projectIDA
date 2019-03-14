@@ -1,0 +1,309 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	min-width:900px;
+}
+
+a, p, h1, h2, h3, h4, h5, h6{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	font-size: 0.9em;
+	margin:0;
+	padding:0;
+	color:black;
+}
+
+p{
+	margin:0 0 1em 0;
+}
+
+a{
+	font-size:1em;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic,sans-serif;
+	font-weight:500;
+}
+
+h1{
+	font-size: 1.8em;
+	margin:0 0 1em 0;
+}
+h2{
+	font-size: 1.4em;
+}
+h3{
+	font-size: 1.2em;
+	
+}
+h4{
+	font-size: 1em;
+	font-style:italic;
+}
+h5{
+	font-size: 1em;
+	font-style:italic;
+}
+h6{
+	font-size: 1em;
+	font-style:italic;
+}
+
+#header{
+	border-bottom: 0.125em solid #ffa31a;
+	
+}
+
+#logoHead{
+	width:5em;
+	margin: 2em 0 0em 0;
+	display:block;
+}
+#mainMenu{
+	margin-top:2.5em;
+	width:100%;
+}
+#mainMenu >ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+	display:inline-block;
+}
+#mainMenu > ul > li{
+	display:inline-block;
+}
+#mainMenu > ul > li > a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.75em 2em;
+    text-decoration: none;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic,sans-serif;
+	font-size:1.1em;
+}
+#mainMenu > ul > li > a:hover{
+	background-color:#ffa31a;
+}
+#loginBox{
+	display:block;
+	margin:0 auto;
+	background-color:White;
+	border:1px solid #dedede;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	padding:1em;
+}
+form.logInForm em{
+	margin-bottom:1em;
+	display:block;
+	color:black;
+	text-decoration: none;
+	font-style:normal;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic,sans-serif;
+	font-size:0.9em;
+}
+form.logInForm input[type=submit]{
+	padding:0.25em 0.5em;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic,sans-serif;
+}
+
+
+#body{
+	margin-top:2em;
+	padding:0;
+}
+
+#body a:hover{
+	color:#595959;
+}
+
+#foot{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	font-size: 0.9em;
+	margin:0;
+	padding:3em 0 2em 0;
+	color:black;
+	background-color:#f0f0f0;
+	overflow:hidden;
+}
+
+#foot img{
+	width:1.5em;
+	height:auto;
+	display:inline-block;
+	margin: 0 1em 0 0;
+	padding:0;
+	vertical-align:middle;
+}
+
+#foot ul, ul.contactInfo{
+	display:inline-block;
+	list-style-type: none;
+}
+#foot a{
+	text-decoration:none;
+}
+
+#foot a.underlineLinkFoot{
+	text-decoration:underline;
+}
+
+li.copyTitle{
+	margin-bottom:1em;
+	font-size:1.1em;
+}
+
+#socialMediaMenu{
+	float:right;
+	margin:0;
+}
+#socialMediaMenu .heading{
+	margin:0 0 1em 0;
+	font-weight:700;
+	
+}
+
+#socialMediaMenu a:hover{
+	color:#595959;
+}
+
+.alignment{
+	width:80%;
+	max-width:1024px;
+	display:block;
+	margin:0 auto;
+}
+
+/*CONTENT CSS*/
+
+div.article{
+	overflow:hidden;
+	padding: 1em 0 1.5em 0;
+}
+div.underlineArticle{
+	border-bottom: 1px solid #f0f0f0;
+	width:100%;
+	padding:1em 0 0 0;
+}
+
+div.article > img{
+	max-height:100%;
+	max-width:8em;
+	display:inline-block;
+	float:left;
+	margin: 0 2em 0em 0;
+}
+
+div.article > div{
+	display:inline-block;
+	margin:0 0 1.5em 0;
+}
+
+.articleTitle, .articleTitle > a{
+	margin:0 0 0.5em 0;
+	text-decoration:none;
+}
+
+p.dateTimePublished, p.authorSign{
+	color: #c0c0c0;
+	font-style: italic;
+	display: inline-block;
+	margin:0em 0 0 1em;
+}
+
+a.tagGeneral, a.tagTutorial, a.tagVisual{
+	display: inline-block;
+	background-color:#ffa31a;
+	padding: 0.25em 1em;
+	color: white;
+	font-style: italic;
+	margin-right:1em;
+	font-size:0.9em;
+	text-decoration:none;
+}
+
+a.tagGeneral:hover{
+	color:white !important;
+	background-color:#ffad33;
+}
+
+a.tagTutorial:hover{
+	color:white !important;
+	background-color:#3381ff;
+}
+a.tagVisual:hover{
+	color:white !important;
+	background-color:#cc66ff;
+}
+
+a.tagTutorial{
+	background-color:#1e74ff;
+}
+a.tagVisual{
+	background-color:#bb33ff;
+}
+
+p.summaryArticle{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+
+img.articlePicture{
+	margin:0 auto 3em auto;
+	display:block;
+	cursor: pointer; 
+}
+
+#articlePageHead{
+	margin: 0 0 2em 0;
+}
+
+#articlePageHead > div{
+	display:inline-block;
+}
+
+p.summaryArticlePage{
+	font-weight:600;
+	margin-top:1em;
+}
+
+#articlePage{
+	margin-bottom:3em;
+}
+
+ul.contactInfo{
+	margin: 0 0 1em 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	font-size: 0.9em;
+}
+
+ul.contactInfo a{
+	text-decoration:none;
+}
+
+#meetTheTeam{
+	margin:1em 0 2em 0;
+	width:100%;
+}
+
+#textOutput {
+	margin-top:1em;
+}
+
+#blogInput {
+	margin: 1%;
+	padding: 1%;
+	background-color: #ededed;
+}
+
+#blogInput [type="text"] {
+	width: 100%;
+	margin: 1% 0 1% 0;
+}
+#blogInput textarea {
+	width: 100%;
+	margin: 1% 0 1% 0;
+	resize: vertical;
+}
